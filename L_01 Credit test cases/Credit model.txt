@@ -1,0 +1,18 @@
+A sum: valid (valid user's credit sum)
+Repayment period: unknown, 1, 5, 15-26
+Goal: purpose credit, services, product and properties, refinancing
+Security for credit: no matter, surety, deposit, estate credit deposit, guarantee deposit, none
+Way of repayment: no matter, non-cash, cash, card, cash and card
+Procedure of repayment:no matter, monthly payment, reducing payment each month
+Keeping a credit limit: no matter, yes
+Repayment period 'days': unknown, 500
+Salary note: no matter, provide, no, provide as IE
+Grace period: no matter, yes, no
+The overall work experience: 1, 240
+Work experience from the last job spot: 0, 100
+Age of the borrower: 18
+A month salary "BYN": 950
+
+IF [The overall work experience] = 1 THEN [Work experience from the last job spot] <= 1;
+
+IF [Repayment period 'days'] = "500" THEN [Repayment period] = "unknown";

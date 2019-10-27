@@ -1,0 +1,35 @@
+A sum	Repayment period	Goal	Security for credit	Way of repayment	Procedure of repayment	Keeping a credit limit	Repayment period 'days'	Salary note	Grace period	The overall work experience	Work experience from the last job spot	Age of the borrower	A month salary "BYN"
+valid (valid user's credit sum)	15-26	purpose credit	surety	non-cash	no matter	yes	unknown	provide as IE	no matter	1	0	18	950
+valid (valid user's credit sum)	unknown	refinancing	estate credit deposit	cash and card	reducing payment each month	no matter	500	no matter	no	240	100	18	950
+valid (valid user's credit sum)	5	services	surety	cash and card	monthly payment	no matter	unknown	provide	yes	240	0	18	950
+valid (valid user's credit sum)	unknown	product and properties	deposit	non-cash	no matter	yes	500	no	yes	240	100	18	950
+valid (valid user's credit sum)	unknown	refinancing	estate credit deposit	non-cash	monthly payment	yes	500	provide	no	1	0	18	950
+valid (valid user's credit sum)	1	product and properties	deposit	cash	reducing payment each month	no matter	unknown	no matter	no matter	1	0	18	950
+valid (valid user's credit sum)	unknown	purpose credit	guarantee deposit	no matter	monthly payment	no matter	500	provide as IE	no matter	240	100	18	950
+valid (valid user's credit sum)	1	services	guarantee deposit	cash and card	reducing payment each month	yes	unknown	no	yes	1	0	18	950
+valid (valid user's credit sum)	15-26	services	none	non-cash	no matter	no matter	unknown	no matter	no	240	100	18	950
+valid (valid user's credit sum)	unknown	refinancing	none	cash and card	reducing payment each month	yes	500	provide as IE	no matter	1	0	18	950
+valid (valid user's credit sum)	5	refinancing	estate credit deposit	cash	no matter	yes	unknown	provide as IE	yes	240	100	18	950
+valid (valid user's credit sum)	unknown	purpose credit	surety	no matter	reducing payment each month	yes	500	no	no	240	100	18	950
+valid (valid user's credit sum)	1	purpose credit	none	no matter	no matter	yes	unknown	provide	yes	1	0	18	950
+valid (valid user's credit sum)	unknown	product and properties	none	cash	monthly payment	no matter	500	no	no	240	100	18	950
+valid (valid user's credit sum)	unknown	services	surety	cash	reducing payment each month	yes	500	provide	no matter	240	100	18	950
+valid (valid user's credit sum)	1	product and properties	surety	card	monthly payment	yes	unknown	no matter	no	240	100	18	950
+valid (valid user's credit sum)	unknown	refinancing	none	card	reducing payment each month	no matter	500	no	no matter	1	0	18	950
+valid (valid user's credit sum)	5	product and properties	estate credit deposit	no matter	reducing payment each month	yes	unknown	no	no matter	1	0	18	950
+valid (valid user's credit sum)	15-26	refinancing	no matter	no matter	reducing payment each month	yes	unknown	no matter	yes	1	0	18	950
+valid (valid user's credit sum)	1	services	estate credit deposit	card	no matter	yes	unknown	provide as IE	yes	240	0	18	950
+valid (valid user's credit sum)	unknown	product and properties	no matter	cash and card	no matter	no matter	500	provide as IE	no	240	100	18	950
+valid (valid user's credit sum)	15-26	purpose credit	no matter	cash	monthly payment	no matter	unknown	provide	no matter	240	100	18	950
+valid (valid user's credit sum)	5	purpose credit	deposit	cash and card	monthly payment	yes	unknown	provide	no	1	0	18	950
+valid (valid user's credit sum)	1	services	no matter	non-cash	reducing payment each month	yes	unknown	no	no	240	0	18	950
+valid (valid user's credit sum)	15-26	services	deposit	no matter	reducing payment each month	yes	unknown	provide as IE	yes	240	0	18	950
+valid (valid user's credit sum)	5	refinancing	deposit	card	no matter	yes	unknown	no matter	no	1	0	18	950
+valid (valid user's credit sum)	15-26	purpose credit	estate credit deposit	card	monthly payment	no matter	unknown	no	no	1	0	18	950
+valid (valid user's credit sum)	5	product and properties	none	card	monthly payment	yes	unknown	provide	yes	1	0	18	950
+valid (valid user's credit sum)	15-26	product and properties	guarantee deposit	card	no matter	no matter	unknown	no matter	no	240	100	18	950
+valid (valid user's credit sum)	1	refinancing	guarantee deposit	cash	reducing payment each month	yes	unknown	provide	no matter	240	100	18	950
+valid (valid user's credit sum)	5	purpose credit	no matter	card	no matter	yes	unknown	no matter	no	240	0	18	950
+valid (valid user's credit sum)	15-26	refinancing	surety	cash and card	monthly payment	no matter	unknown	no matter	no matter	1	0	18	950
+valid (valid user's credit sum)	5	services	guarantee deposit	non-cash	no matter	yes	unknown	no	yes	240	100	18	950
+valid (valid user's credit sum)	unknown	services	surety	cash	monthly payment	no matter	unknown	no	no matter	240	100	18	950
