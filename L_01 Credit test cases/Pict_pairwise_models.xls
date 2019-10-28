@@ -1,0 +1,37 @@
+Sum,Repayment term,Loan purpose,Loan security,Repayment method,Repayment order,Loan entitlement restoration,Repayment loan duration,Salary note,Grace period,Total work experience,Last workplace experience,Borrower age,"Average mounthly income ""BYN"""
+valid (valid user's credit sum),1,services,no matter,cash,x% of the debt,no matter,unknown,no matter,yes,1,0,18,950
+valid (valid user's credit sum),unknown,products and properties,estate credit deposit,cashless,no matter,yes,500,supplying as IE,no matter,240,100,18,950
+valid (valid user's credit sum),15-26,non-purpose loan,none,cash,lower monthly payment,yes,unknown,supplying,no,240,100,18,950
+valid (valid user's credit sum),unknown,refinancing,estate credit deposit,cash,equal instalments,no matter,500,no,no matter,1,0,18,950
+valid (valid user's credit sum),5,services,no matter,cashless,equal instalments,yes,unknown,no,no,240,0,18,950
+valid (valid user's credit sum),unknown,non-purpose loan,none,cash and card,lower monthly payment,no matter,500,supplying as IE,yes,1,0,18,950
+valid (valid user's credit sum),5,refinancing,assurance deposit,cash and card,x% of the debt,yes,unknown,no matter,yes,240,100,18,950
+valid (valid user's credit sum),unknown,services,no matter,no matter,no matter,no matter,500,supplying,no matter,240,100,18,950
+valid (valid user's credit sum),15-26,products and properties,no matter,card,no matter,no matter,unknown,supplying as IE,no,1,0,18,950
+valid (valid user's credit sum),unknown,non-purpose loan,assurance deposit,card,lower monthly payment,yes,500,no,no matter,240,100,18,950
+valid (valid user's credit sum),1,products and properties,none,no matter,x% of the debt,yes,unknown,no matter,no matter,1,0,18,950
+valid (valid user's credit sum),1,products and properties,pledge,cashless,equal instalments,no matter,unknown,supplying,yes,240,100,18,950
+valid (valid user's credit sum),5,refinancing,estate credit deposit,card,x% of the debt,no matter,unknown,supplying,yes,1,0,18,950
+valid (valid user's credit sum),unknown,non-purpose loan,surety,card,x% of the debt,no matter,500,no matter,no,240,0,18,950
+valid (valid user's credit sum),15-26,refinancing,no matter,cash and card,no matter,no matter,unknown,no,no matter,240,0,18,950
+valid (valid user's credit sum),5,products and properties,surety,no matter,lower monthly payment,yes,unknown,no,yes,240,100,18,950
+valid (valid user's credit sum),1,refinancing,assurance deposit,cash,no matter,no matter,unknown,supplying as IE,no,1,0,18,950
+valid (valid user's credit sum),15-26,refinancing,surety,cashless,lower monthly payment,yes,unknown,no matter,no matter,240,100,18,950
+valid (valid user's credit sum),unknown,services,pledge,cash and card,equal instalments,yes,500,supplying as IE,no,1,0,18,950
+valid (valid user's credit sum),15-26,non-purpose loan,estate credit deposit,no matter,equal instalments,yes,unknown,no matter,no,240,0,18,950
+valid (valid user's credit sum),1,services,none,card,equal instalments,no matter,unknown,no,yes,240,100,18,950
+valid (valid user's credit sum),5,non-purpose loan,none,cashless,no matter,no matter,unknown,supplying as IE,yes,240,100,18,950
+valid (valid user's credit sum),15-26,non-purpose loan,no matter,cashless,x% of the debt,no matter,unknown,supplying as IE,yes,240,100,18,950
+valid (valid user's credit sum),5,services,surety,cash,no matter,no matter,unknown,supplying as IE,no matter,1,0,18,950
+valid (valid user's credit sum),15-26,non-purpose loan,pledge,cash,no matter,yes,unknown,no matter,no matter,240,100,18,950
+valid (valid user's credit sum),1,products and properties,surety,cash and card,equal instalments,yes,unknown,supplying,no matter,240,100,18,950
+valid (valid user's credit sum),15-26,services,assurance deposit,cashless,lower monthly payment,no matter,unknown,supplying,yes,1,0,18,950
+valid (valid user's credit sum),1,refinancing,estate credit deposit,no matter,lower monthly payment,no matter,unknown,supplying as IE,no matter,240,100,18,950
+valid (valid user's credit sum),unknown,refinancing,pledge,no matter,x% of the debt,yes,unknown,no,no matter,240,100,18,950
+valid (valid user's credit sum),1,refinancing,none,cash,equal instalments,no matter,unknown,supplying as IE,no matter,240,100,18,950
+valid (valid user's credit sum),unknown,products and properties,assurance deposit,no matter,equal instalments,no matter,500,supplying as IE,yes,1,0,18,950
+valid (valid user's credit sum),unknown,non-purpose loan,pledge,card,lower monthly payment,yes,500,no,yes,1,0,18,950
+valid (valid user's credit sum),5,products and properties,pledge,cash,equal instalments,yes,unknown,supplying as IE,no,1,0,18,950
+valid (valid user's credit sum),unknown,non-purpose loan,no matter,no matter,lower monthly payment,yes,500,supplying,no matter,1,0,18,950
+valid (valid user's credit sum),unknown,services,estate credit deposit,cash and card,lower monthly payment,no matter,500,no,no matter,1,0,18,950
+valid (valid user's credit sum),1,non-purpose loan,no matter,cash and card,lower monthly payment,yes,unknown,supplying as IE,yes,240,0,18,950
