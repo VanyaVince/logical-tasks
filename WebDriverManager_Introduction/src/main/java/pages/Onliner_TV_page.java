@@ -21,7 +21,6 @@ public class Onliner_TV_page extends BasePage {
 
     public Onliner_TV_page(WebDriver driver) {
         super(driver);
-        //driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     }
 
     public void takeFirstTwoTV() {

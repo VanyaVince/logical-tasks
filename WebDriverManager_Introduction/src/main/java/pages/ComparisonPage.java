@@ -30,9 +30,12 @@ public class ComparisonPage extends BasePage {
     }
 
     public void openPopTipWindow() {
+        _wait.until(ExpectedConditions.visibilityOf(questionMark));
         questionMark.click();
+
         tablePopTip = _driver.findElement(xpath_tablePopTip);
         _wait.until(ExpectedConditions.visibilityOf(tablePopTip));
+
         hoverOverElement(tablePopTip);
     }
 

@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977dbf47-7509-47ee-be33-1dc1d8e36162" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java_Selenium_Connections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Selenium_Connections/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Selenium_Connections/Java_Selenium_Connections.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Selenium_Connections/Java_Selenium_Connections.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverInstance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Onliner_TV_page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Onliner_TV_page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tests/Waits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tests/Waits.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/ComparisonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ComparisonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Onliner_TV_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Onliner_TV_page.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +20,11 @@
     <session id="-407705179">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,13 +45,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1794" />
+          <entry key="java" value="1804" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1794" />
+          <entry key="JAVA" value="1804" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -69,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Tests/Waits.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,15 +71,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,19 +89,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="528">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
                 <element signature="e#1508#1509#0" expanded="true" />
                 <element signature="e#1573#1574#0" expanded="true" />
               </folding>
@@ -118,9 +110,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/Onliner_TV_page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="308">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
+                <element signature="e#704#705#0" expanded="true" />
                 <element signature="e#1118#1119#0" expanded="true" />
                 <element signature="e#1209#1210#0" expanded="true" />
               </folding>
@@ -131,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="550">
               <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -163,10 +156,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Waits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/driver/DriverInstance.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/Waits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/Onliner_TV_page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" />
       </list>
     </option>
   </component>
@@ -198,6 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,18 +201,50 @@
               <item name="WebDriverManager_Introduction" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebDriverManager_Introduction" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebDriverManager_Introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriverManager_Introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDriverManager_Introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriverManager_Introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDriverManager_Introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriverManager_Introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDriverManager_Introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriverManager_Introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDriverManager_Introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriverManager_Introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578227078508" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578231254327" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -245,12 +273,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Waits.test">
+  <component name="RunManager" selected="JUnit.Waits.compareTV">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="WebDriverManager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Waits.compareTV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebDriverManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Waits" />
+      <option name="METHOD_NAME" value="compareTV" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -268,9 +312,11 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.Waits.test" />
+      <item itemvalue="JUnit.Waits.compareTV" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Waits.compareTV" />
         <item itemvalue="JUnit.Waits.test" />
         <item itemvalue="Application.App" />
       </list>
@@ -292,19 +338,11 @@
       <workItem from="1578053617801" duration="18102000" />
       <workItem from="1578148705378" duration="14387000" />
       <workItem from="1578211237437" duration="14579000" />
+      <workItem from="1578231092894" duration="274000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Waits_test - 2020.01.05 at 14h 34m 08s.xml">
-      <configuration name="Waits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Waits_test - 2020.01.05 at 14h 47m 38s.xml">
-      <configuration name="Waits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Waits_test - 2020.01.05 at 14h 48m 29s.xml">
-      <configuration name="Waits.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Waits_test - 2020.01.05 at 14h 49m 03s.xml">
       <configuration name="Waits.test" configurationId="JUnit" />
     </history-entry>
@@ -326,15 +364,24 @@
     <history-entry file="Waits_test - 2020.01.05 at 15h 20m 30s.xml">
       <configuration name="Waits.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Waits_test - 2020.01.05 at 16h 33m 18s.xml">
+      <configuration name="Waits.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Waits_compareTV - 2020.01.05 at 16h 33m 54s.xml">
+      <configuration name="Waits.compareTV" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Waits_compareTV - 2020.01.05 at 16h 34m 31s.xml">
+      <configuration name="Waits.compareTV" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28966000" />
+    <option name="totallyTimeSpent" value="29240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09141494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09220985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,17 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Onliner_TV_page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebDriverManager_Introduction.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -404,29 +440,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tests.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverInstance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="550">
           <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -436,44 +468,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tests/Waits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Onliner_TV_page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="308">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
           </folding>
         </state>
       </provider>
