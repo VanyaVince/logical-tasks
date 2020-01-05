@@ -27,7 +27,7 @@ public class DriverInstance {
             default:
                 break;
         }
-        _driver.manage().window().maximize();
+        //_driver.manage().window().maximize();
     }
 //
 //    public WebDriver initializeDriver(DriverType driverType){

@@ -8,17 +8,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public abstract class BasePage {
 
-    private WebDriver _driver;
+    protected WebDriver _driver;
     private Actions _actions;
-    protected WebDriverWait _wait;
+    public WebDriverWait _wait;
 
     private String url = "https://catalog.onliner.by/tv";
 
     BasePage(WebDriver driver) {
         this._driver = driver;
-        PageFactory.initElements(driver, this);
         this._actions = new Actions(driver);
-        this._wait = new WebDriverWait(_driver, 10, 500);
+        this._wait = new WebDriverWait(_driver, 3, 500);
+        PageFactory.initElements(driver, this);
     }
 
     public void hoverOverElement(WebElement element){
