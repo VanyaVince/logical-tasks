@@ -1,4 +1,3 @@
-package Tests;
 import driver.DriverType;
 import org.junit.After;
 import org.junit.Before;

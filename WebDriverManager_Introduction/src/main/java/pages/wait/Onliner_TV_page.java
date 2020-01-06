@@ -1,17 +1,17 @@
-package pages;
+package pages.wait;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
+import pages.Base_page;
 
-import java.sql.Time;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class Onliner_TV_page extends BasePage {
+public class Onliner_TV_page extends Base_page {
+
+    private String url = "https://catalog.onliner.by/tv";
 
     @FindBy(how = How.XPATH, using = "//div[@class='schema-product__group']")
     private List<WebElement> TVList;
@@ -38,5 +38,9 @@ public class Onliner_TV_page extends BasePage {
 
     public void ClickComparisonButton(){
         comparisonButton.findElement(By.xpath("//a[contains(@href, '+')]")).click();
+    }
+
+    public String getUrl() {
+        return url;
     }
 }
