@@ -13,7 +13,6 @@ import java.util.List;
 public class Onliner_TV_page extends Base_page {
 
     private String url = "https://catalog.onliner.by/tv";
-
     public HashMap<String, String> windowHandles = new HashMap<String, String>();
 
     @FindBy(how = How.XPATH, using = "//div[@class='schema-filter__store-list']/a[contains(@href, 'apple')]")
@@ -21,6 +20,9 @@ public class Onliner_TV_page extends Base_page {
 
     @FindBy(how = How.XPATH, using = "//div[@class='schema-filter__store-list']/a[contains(@href, 'google')]")
     private WebElement googlePlayButton;
+
+    @FindBy(how = How.XPATH, using = "//footer//a[normalize-space()='Реклама']")
+    private WebElement advertisementButton;
 
     public Onliner_TV_page(WebDriver driver) {
         super(driver);
@@ -41,8 +43,26 @@ public class Onliner_TV_page extends Base_page {
         windowHandles.put("Google play", lastWindowHandle());
     }
 
+    public void openAdvertisement(){
+        advertisementButton.click();
+    }
+
     public void switchTo(String page){
         _driver.switchTo().window(windowHandles.get(page));
+    }
+
+
+    public void closeWindow(String page){
+        windowHandles.remove(page);
+        _driver.close();
+    }
+
+    public void closeAllWindows(){
+        for (String page : windowHandles.values()){
+            _driver.switchTo().window(page);
+            _driver.close();
+            windowHandles.remove(page);
+        }
     }
 
     private String lastWindowHandle(){
