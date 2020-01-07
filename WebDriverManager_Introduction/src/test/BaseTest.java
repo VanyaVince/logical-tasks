@@ -11,7 +11,7 @@ public class BaseTest {
     @Before
     public void SetUp(){
         _driver = new DriverInstance(DriverType.CHROME);
-        _driver.get_driver().manage().window().maximize();
+        //_driver.get_driver().manage().window().maximize();
     }
 
     @After
