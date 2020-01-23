@@ -15,5 +15,6 @@ public class AlertTest extends BaseTest {
         alertPageSteps.getTextFromConfirmAlert();
         alertPageSteps.dismissConfirmAlert();
         alertPageSteps.fillOutPromptAlert(message);
+
     }
 }

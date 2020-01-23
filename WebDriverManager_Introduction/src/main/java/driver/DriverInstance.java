@@ -11,7 +11,7 @@ public class DriverInstance {
     private WebDriver _driver = null;
 
     public DriverInstance(DriverType driverType) {
-        switch (driverType){
+        switch (driverType) {
             case CHROME:
                 WebDriverManager.chromedriver().setup();
                 _driver = new ChromeDriver();
@@ -29,7 +29,7 @@ public class DriverInstance {
         }
         //_driver.manage().window().maximize();
     }
-//
+
 //    public WebDriver initializeDriver(DriverType driverType){
 //      String _browserName = System.getProperty("browser", DriverType.CHROME.toString()).toUpperCase();
 //        driverType = DriverType.valueOf(browser.toUpperCase());
