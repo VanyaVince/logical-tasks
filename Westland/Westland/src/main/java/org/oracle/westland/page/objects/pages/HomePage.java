@@ -30,15 +30,22 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//div[@id = 'dropdown-minicart']//a")
     private WebElementFacade cartButton;
 
+//    public void clickOnElement(String label) {
+//        find(By.xpath("//li[@class='dropdown menu-item']/a[text()= '" + label + "']")).click();
+//
+//    }
+
     public void clickOnElement(String label) {
-        find(By.xpath("//li[@class='dropdown menu-item']/a[text()= '" + label + "']")).click();
+        find(By.xpath("//li[@class='subcategory-item']/a[@title= '" + label + "']")).click();
+
     }
 
     public void hoverOverElement(String label) {
         Actions actions = new Actions(getDriver());
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         actions.moveToElement(getDriver().findElement(By.xpath("//li[@class='dropdown menu-item']/a[text()= '" + label + "']"))).build().perform();
-//        withAction().moveToElement(find(By.xpath("//li[@class='dropdown menu-item']/a[text()= '" + label + "']"))).perform();
+        //withAction().moveToElement(find(By.xpath("//li[@class='dropdown menu-item']/a[text()= '" + label + "']"))).build().perform();
+
     }
 
     ///////////////////////////verification section///////////////////////////////////////
