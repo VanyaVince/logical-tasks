@@ -44,7 +44,7 @@ public class HomePage extends BasePage {
         Actions actions = new Actions(getDriver());
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         actions.moveToElement(getDriver().findElement(By.xpath("//li[@class='dropdown menu-item']/a[text()= '" + label + "']"))).build().perform();
-        withAction().moveToElement(find(By.xpath("//li[@class='dropdown menu-item']/a[text()= '" + label + "']"))).build().perform();
+        //withAction().moveToElement(find(By.xpath("//li[@class='dropdown menu-item']/a[text()= '" + label + "']"))).build().perform();
 
     }
 
