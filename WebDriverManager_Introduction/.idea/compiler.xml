@@ -10,5 +10,8 @@
         <module name="WebDriverManager_Introduction" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="WebDriverManager" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,169 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977dbf47-7509-47ee-be33-1dc1d8e36162" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Ivan_Svirydovich.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Vince.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AlertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AlertTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverInstance$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverInstance$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverInstance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Base_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Base_page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/alert/Alert_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/alert/Alert_page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/frame/FramePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/frame/FramePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/wait/Comparison_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/wait/Comparison_page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/wait/Onliner_TV_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/wait/Onliner_TV_page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/windows/AppleStore_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/windows/AppleStore_page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/windows/GooglePlay_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/windows/GooglePlay_page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/windows/Onliner_TV_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/windows/Onliner_TV_page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/AlertPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/AlertPageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AlertTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AlertTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FrameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FrameTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultipleWindowsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MultipleWindowsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WaitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.firebaserc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.idea/jsLinters/jshint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.idea/liraNew.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/firebase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/about_us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/achievement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/css/ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/css/ie9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/css/images/ie/grad0-15.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/css/images/overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/ie/PIE.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/ie/backgroundsize.min.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/ie/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/ie/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/jquery.scrolly.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/jquery.scrollzer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/skel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/js/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/sass/ie8.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/sass/ie9.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/sass/libs/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/sass/libs/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/sass/libs/_skel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/sass/libs/_vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/assets/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_en.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/01_Pastyfov.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/02_Derbenko.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/03_Ermochenkov.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/04_Petrov.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/06_Malux.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/07_Ivanov.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/08_Piazzolla.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/09_Khachaturian.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/10_the_Earthe.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/audio_lira/11_Kremko.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/comments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/comments_en.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/carusel9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/c2/icon1.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/carusel01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/carusel02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/carusel03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/carusel04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/carusel05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/carusel06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/carusel07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/icon1.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/pic02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/pic03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/pic04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/pic05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/pic06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/pic07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/rus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/images/usa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/index-en.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/.jscsrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/DEPLOY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/ROADMAP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/css/lightbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/css/lightbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/images/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/images/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/js/lightbox-plus-jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/js/lightbox-plus-jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/js/lightbox-plus-jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/js/lightbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/js/lightbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/dist/js/lightbox.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/src/css/lightbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/src/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/src/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/src/images/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/src/images/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/lightbox2-master/src/js/lightbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/potfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/video_en.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../liraNew/public/videos.html" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-407705179">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,40 +41,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectId" id="1VhjFkHfwFN08zsTp7OOrG4yizh" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1280" />
+    <option name="height" value="1053" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578434322464" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../westland/Westland/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,7 +84,6 @@
       <module name="WebDriverManager" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AlertTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,7 +163,6 @@
       <module name="WebDriverManager" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WaitTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -357,11 +209,44 @@
       <workItem from="1578490716053" duration="327000" />
       <workItem from="1578564365974" duration="5104000" />
       <workItem from="1578638348497" duration="7322000" />
+      <workItem from="1580411432166" duration="721000" />
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="721000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -369,12 +254,21 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -384,5 +278,21 @@
         <watch expression="((RemoteLocationContext)((ChromeDriver)((RemoteWebElement)((ComparisonPage)this).tableItem).parent).locationContext).executeMethod" custom="org.openqa.selenium.remote.html5.RemoteLocationContext,org.openqa.selenium.remote.RemoteWebElement,org.openqa.selenium.chrome.ChromeDriver,pages.ComparisonPage" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
