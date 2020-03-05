@@ -28,8 +28,6 @@ public class DriverInstance implements DriverSource {
 
         switch (_driverType) {
             case CHROME:
-
-                //TODO the need of getting refactoring, status - pending
                 ChromeOptions opts = new ChromeOptions();
                 opts.setProxy(proxyServer.SetAuthorizationHeader(credentials));
                 opts.setAcceptInsecureCerts(true);
@@ -37,8 +35,8 @@ public class DriverInstance implements DriverSource {
                 WebDriverManager.chromedriver().setup();
                 _driver = new ChromeDriver(opts);
                 break;
-            case FIREFOX:
 
+            case FIREFOX:
                 FirefoxOptions firexOpt = new FirefoxOptions();
                 firexOpt.setProxy(proxyServer.SetAuthorizationHeader(credentials));
                 firexOpt.setAcceptInsecureCerts(true);
@@ -47,6 +45,7 @@ public class DriverInstance implements DriverSource {
                 _driver = new FirefoxDriver(firexOpt);
                 break;
         }
+
         _driver.manage().window().maximize();
         return _driver;
     }
