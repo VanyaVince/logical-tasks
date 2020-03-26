@@ -12,7 +12,7 @@ public class IT_WSTD99_BreadcrumbsClickabilityTest extends PrimaryTemplate {
     private final String product = "Resolva Moss Killer Ready To Use";
 
     @Test
-    public void verifyBreadcrumbsNavigation() throws InterruptedException {
+    public void verifyBreadcrumbsNavigation() {
 
         homePage.openUrl();
         logInPage.logInAs(AccountCredentials.LOGIN, AccountCredentials.PASSWORD);

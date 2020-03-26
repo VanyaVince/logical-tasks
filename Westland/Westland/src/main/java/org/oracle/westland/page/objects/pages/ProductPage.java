@@ -19,55 +19,30 @@ public class ProductPage extends BasePage {
     @FindBy(xpath = "//*[local-name()='svg']")
     private WebElementFacade barcode;
 
+    @FindBy(xpath = "//button[@id='cc-prodDetailsAddToCart']")
+    private WebElementFacade addToCartBtn;
+
     //////////////////methods/////////////////////////
     public void clickBreadcrumbBar(String label) {
-        ElementExtension.searchForNestedElement(breadcrumb, label).click();
+        elementExtension.searchForNestedElement(breadcrumb, label).click();
     }
 
-    public void verifyPrintWindowsOpen() {
-//        getDriver().manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-        long start = System.currentTimeMillis();
-        JavascriptExecutor js = (JavascriptExecutor) getDriver();
-
-//        js.executeAsyncScript(
-//                "var callback = arguments[1];" +
-//                        "window.print = function(){callback();};" +
-//                        "arguments[0].click();"
-//                , printBtn);
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        String ms = (String) js.executeScript("return document.title");
-        System.out.println("page title: " + ms);
-
-        Boolean flag = (Boolean) js.executeScript(
-                "let flag=false; " +
-                        "window.print=()=>flag=true;" +
-                        "document.getElementById('CC-prodDetails-printPage').click(); " +
-                        "return flag;}");
-
-        System.out.println(flag);
-
-//        js.executeScript("window.setTimeout(500);");
-//        System.out.println("Elapsed time: " + (System.currentTimeMillis() - start));
-
-//        getDriver().switchTo().window(new ArrayList<String>(getDriver().getWindowHandles()).get(1));
-
-        //System.out.println(flag);
-
+    public void clickAddToCartBtn() {
+        withAction().moveToElement(addToCartBtn).build().perform();
+        addToCartBtn.click();
     }
 
     ///////////////////////////verification section///////////////////////////////////////
 
     public boolean isElementClickable() {
-        return ElementExtension.isClickable(breadcrumb.get(breadcrumb.size() - 1));
+        return elementExtension.isClickable(breadcrumb.get(breadcrumb.size() - 1));
     }
 
-    public void verifyProductPageDisplayed() {
+    public void verifyWindowPrintIsInvoked() {
+        ((JavascriptExecutor) getDriver()).executeAsyncScript("var callback = arguments[1]; window.print = function(){callback();}; arguments[0].click();", printBtn);
+    }
+
+    public void verifyPageIsDisplayed() {
         printBtn.shouldBeVisible();
         barcode.shouldBeVisible();
     }

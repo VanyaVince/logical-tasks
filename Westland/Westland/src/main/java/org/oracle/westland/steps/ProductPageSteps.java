@@ -10,23 +10,34 @@ public class ProductPageSteps extends ScenarioSteps {
 
     @Step
     public void openPreviousPageWithBreadcrumb(String label) {
-        productPage.verifyProductPageDisplayed();
+        productPage.verifyPageIsDisplayed();
         productPage.clickBreadcrumbBar(label);
     }
 
     @Step
+    public void addProductToBasket() {
+        productPage.clickAddToCartBtn();
+    }
+
+    @Step
+    public void clickOnLogoItem() {
+        productPage.clickOnWestlandLogo();
+    }
+
+    @Step
     public boolean isLastBreadcrumbTrailInteractable() {
-        productPage.verifyProductPageDisplayed();
+        productPage.verifyPageIsDisplayed();
         return productPage.isElementClickable();
     }
 
     @Step
-    public void verifyPrintWindowsOpen() {
-        productPage.verifyPrintWindowsOpen();
+    public void verifyWindowPrintIsInvoked() {
+        productPage.verifyPageIsDisplayed();
+        productPage.verifyWindowPrintIsInvoked();
     }
 
     @Step
     public void verifyPageAppearance() {
-        productPage.verifyProductPageDisplayed();
+        productPage.verifyPageIsDisplayed();
     }
 }

@@ -4,7 +4,6 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.oracle.westland.page.objects.BasePage;
 import org.oracle.westland.utils.DriverFinders;
-import org.oracle.westland.utils.ElementExtension;
 
 import java.util.List;
 
@@ -22,9 +21,7 @@ public class SearchResultPage extends BasePage {
     ////////////////////// verify ///////////////////////////
     public void verifyAllProductsContainMatchingWord(String label) {
 
-        List<WebElementFacade> productNames = findAll(DriverFinders.productName);
-
-        for (WebElementFacade name : productNames)
+        for (WebElementFacade name : findAll(DriverFinders.productNames))
             name.shouldContainText(label);
     }
 
@@ -37,6 +34,6 @@ public class SearchResultPage extends BasePage {
     }
 
     public void verifySuggestedSearchContains(String label) {
-        ElementExtension.searchForNestedElement(suggestedSearch, label);
+        elementExtension.searchForNestedElement(suggestedSearch, label);
     }
 }

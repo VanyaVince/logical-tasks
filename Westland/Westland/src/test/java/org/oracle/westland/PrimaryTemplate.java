@@ -6,8 +6,6 @@ import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.pages.Pages;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import org.oracle.westland.page.objects.pages.HomePage;
-import org.oracle.westland.page.objects.pages.ListingPage;
 import org.oracle.westland.steps.*;
 
 @RunWith(SerenityRunner.class)
@@ -24,6 +22,12 @@ public class PrimaryTemplate {
 
     @Steps
     protected LogInPageSteps logInPage;
+
+    @Steps
+    protected BasketPopUpPageSteps basketPopUpPage;
+
+    @Steps
+    protected BasketPageSteps basketPage;
 
     @Steps
     protected CategoryPageSteps categoryPage;

@@ -12,7 +12,7 @@ public class IT_WSTD87_NoResultMessageTest extends PrimaryTemplate {
     public void verifyProductGridIsEmpty() {
         homePage.openUrl();
         logInPage.logInAs(AccountCredentials.LOGIN, AccountCredentials.PASSWORD);
-        homePage.findProductWithSearchBar(searchingProduct);
+        homePage.findProductsWithSearchBar(searchingProduct);
         searchResultPage.verifyNoSearchResultAppearance();
     }
 }

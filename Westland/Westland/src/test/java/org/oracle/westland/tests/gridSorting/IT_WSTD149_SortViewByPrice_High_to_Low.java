@@ -17,7 +17,7 @@ public class IT_WSTD149_SortViewByPrice_High_to_Low extends PrimaryTemplate {
         logInPage.logInAs(AccountCredentials.LOGIN, AccountCredentials.PASSWORD);
         homePage.openCategory(category);
         homePage.openSubCategory(subcategory);
-        listingPage.sortProductsBy(SortingType.PRICE_HIGH_TO_LOW.getValue());
-        Assert.assertTrue("improper sorting",listingPage.shouldBeSortedBy(SortingType.PRICE_HIGH_TO_LOW));
+        listingPage.sortProductsBy(SortingType.HIGH_TO_LOW.getValue());
+        Assert.assertTrue("improper sorting",listingPage.shouldBeSortedBy("price", SortingType.HIGH_TO_LOW));
     }
 }

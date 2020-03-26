@@ -6,8 +6,6 @@ import org.oracle.westland.page.objects.pages.ListingPage;
 import org.oracle.westland.utils.Sorting;
 import org.oracle.westland.utils.SortingType;
 
-import java.util.List;
-
 public class ListingPageSteps extends ScenarioSteps {
 
     private ListingPage listingPage;
@@ -29,9 +27,9 @@ public class ListingPageSteps extends ScenarioSteps {
     }
 
     @Step
-    public boolean shouldBeSortedBy(SortingType by) {
-        listingPage.verifyPageIsReloaded();
-        return new Sorting().isSortedBy(listingPage.extractProductsBy(by), by);
+    public boolean shouldBeSortedBy(String by, SortingType type) {
+        listingPage.verifyPageAppearance();
+        return new Sorting().isSortedBy(listingPage.extractProductsBy(by), type);
     }
 
     @Step
@@ -44,7 +42,6 @@ public class ListingPageSteps extends ScenarioSteps {
         listingPage.verifyPageAppearance();
         return listingPage.isElementClickable();
     }
-
 
     @Step
     public void verifyListingPageAppearance() {

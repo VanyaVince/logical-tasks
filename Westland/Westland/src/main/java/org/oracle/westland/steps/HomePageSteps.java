@@ -28,14 +28,18 @@ public class HomePageSteps extends ScenarioSteps {
     }
 
     @Step
-    public void navigateToCategory(String label) {
-        homePage.hoverOverElement(label);
+    public void findProductsWithSearchBar(String label) {
+        homePage.enterDataInSearchField(label);
     }
 
     @Step
-    public void findProductWithSearchBar(String label) {
-        homePage.enterDataInSearchField(label);
+    public void openBasketPage() {
+        homePage.clickBasketBtn();
+    }
 
+    @Step
+    public void openBasketPopUpWindow() {
+        homePage.getMouseOverBasketBtn();
     }
 
     ////////////////////verify////////////////////////
@@ -50,4 +54,3 @@ public class HomePageSteps extends ScenarioSteps {
         homePage.verifyPageAppearance();
     }
 }
-

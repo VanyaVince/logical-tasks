@@ -12,7 +12,7 @@ public class IT_WSTD203_SearchMainFlowTest extends PrimaryTemplate {
     public void verifyGridContainsValidItems() {
         homePage.openUrl();
         logInPage.logInAs(AccountCredentials.LOGIN, AccountCredentials.PASSWORD);
-        homePage.findProductWithSearchBar(searchingProduct);
+        homePage.findProductsWithSearchBar(searchingProduct);
         searchResultPage.verifyProductsAreDisplayed(searchingProduct);
     }
 }

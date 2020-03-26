@@ -18,6 +18,6 @@ public class IT_WSTD149_SortViewBy_A_to_Z extends PrimaryTemplate {
         homePage.openCategory(category);
         homePage.openSubCategory(subcategory);
         listingPage.sortProductsBy(SortingType.A_TO_Z.getValue());
-        Assert.assertTrue("improper sorting",listingPage.shouldBeSortedBy(SortingType.A_TO_Z));
+        Assert.assertTrue("improper sorting",listingPage.shouldBeSortedBy("name", SortingType.A_TO_Z));
     }
 }

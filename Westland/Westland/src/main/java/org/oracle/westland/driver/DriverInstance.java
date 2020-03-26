@@ -42,6 +42,7 @@ public class DriverInstance implements DriverSource {
                 firexOpt.setAcceptInsecureCerts(true);
 
                 WebDriverManager.firefoxdriver().setup();
+
                 _driver = new FirefoxDriver(firexOpt);
                 break;
         }

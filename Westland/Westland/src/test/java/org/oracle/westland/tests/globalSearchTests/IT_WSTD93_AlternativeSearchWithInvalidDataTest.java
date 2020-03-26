@@ -13,7 +13,7 @@ public class IT_WSTD93_AlternativeSearchWithInvalidDataTest extends PrimaryTempl
     public void verifySimilarTermsForSearchingIsShown() {
         homePage.openUrl();
         logInPage.logInAs(AccountCredentials.LOGIN, AccountCredentials.PASSWORD);
-        homePage.findProductWithSearchBar(searchingProduct);
+        homePage.findProductsWithSearchBar(searchingProduct);
         searchResultPage.verifySuggestedSearchContains(expectedResult);
     }
 }

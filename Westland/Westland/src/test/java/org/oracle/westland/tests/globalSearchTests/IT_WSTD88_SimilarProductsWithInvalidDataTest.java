@@ -13,7 +13,7 @@ public class IT_WSTD88_SimilarProductsWithInvalidDataTest extends PrimaryTemplat
     public void verifyProductsAreDisplayedWithInvalidData() {
         homePage.openUrl();
         logInPage.logInAs(AccountCredentials.LOGIN, AccountCredentials.PASSWORD);
-        homePage.findProductWithSearchBar(searchingProduct);
+        homePage.findProductsWithSearchBar(searchingProduct);
         searchResultPage.verifyMatchingProductsAreDisplayed(expectedResult);
     }
 }

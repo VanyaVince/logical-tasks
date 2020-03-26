@@ -1,0 +1,8 @@
+buildTests(
+    client: 'Westland', // Client Name
+    envFile: 'westland-occ', // Environment file to load from secret config
+    envName: 'Test',
+    pomfile: 'Westland/pom.xml',
+    slackChannel: 'oc3-westland', // Slack channel to broadcast build events
+    numBuilds: 3 // Number of builds to keep per branch (releases from master or release-* refs will always be kept)
+)
